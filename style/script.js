@@ -44,8 +44,8 @@ const texts = [
   "3",
   "2",
   "1",
-  "HAPPY BIRTHDAY",
-  "TRẦN DIỆU LINH", //Your Name
+  "Happy Birthday",
+  "Trần Diệu Linh", //Your Name
   "20.09.2004", //Day of birth
   "    i love you    ",
   "♥️"
@@ -90,7 +90,7 @@ function getTextPixels(text) {
 
   const imageData = offCtx.getImageData(0, 0, W, H);
   const pixels = [];
-  const gap = 6;
+  const gap = 8;
   for (let y = 0; y < H; y += gap) {
     for (let x = 0; x < W; x += gap) {
       const idx = (y * W + x) * 4;
@@ -246,4 +246,5 @@ let checkEnd = setInterval(() => {
         clearInterval(checkEnd);
         window.location.href = "heart.html";
     }
+
 }, 1000);
