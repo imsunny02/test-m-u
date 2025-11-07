@@ -41,19 +41,18 @@ window.addEventListener("resize", resize);
 
 
 const texts = [
- 
-  "Hello chồng iu",
-  "Chúc chồng iu 19-11 vui vẻ và hạnh phúc"
+  "Gửi chồng iu",
+  "Chúc anh 19-11 vui vẻ",
   "Chúc anh luôn mạnh khỏe",
   "Luôn thành công",
-"Luôn yêu thương em",
-    "    i love you    ",
+  "Luôn iu em ♥️",
+  "    i love you    ",
   "♥️"
 ];
 
-const BASE_DISPLAY_TIME = 2000;
+const BASE_DISPLAY_TIME = 1500;
 const EXPLOSION_TIME = 100;
-const CHAR_APPEAR_INTERVAL = 10;
+const CHAR_APPEAR_INTERVAL = 9;
 
 let currentDisplayTime = BASE_DISPLAY_TIME;
 
@@ -246,7 +245,4 @@ let checkEnd = setInterval(() => {
         clearInterval(checkEnd);
         window.location.href = "heart.html";
     }
-
 }, 1000);
-
-
