@@ -41,16 +41,13 @@ window.addEventListener("resize", resize);
 
 
 const texts = [
-  "3",
-  "2",
-  "1",
-  "Happy Birthday",
-  "Trần Diệu Linh", //Your Name
-  "20.09.2004", //Day of birth
-  "chúc bé iu sinh nhật vui vẻ",
-  "luôn xinh đẹp rạng rỡ",
-"cảm ơn em luôn yêu thương và đồng hành cùng anh",
-  "    i love you    ",
+ 
+  "Hello chồng iu",
+  "Chúc chồng iu 19-11 vui vẻ và hạnh phúc"
+  "Chúc anh luôn mạnh khỏe",
+  "Luôn thành công",
+"Luôn yêu thương em",
+    "    i love you    ",
   "♥️"
 ];
 
@@ -251,4 +248,5 @@ let checkEnd = setInterval(() => {
     }
 
 }, 1000);
+
 
